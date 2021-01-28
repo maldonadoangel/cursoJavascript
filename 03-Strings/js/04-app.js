@@ -15,7 +15,7 @@ console.log(producto.trimEnd());
 console.log(producto.trimStart().trimEnd() );
 console.log(producto.trimStart().trimEnd().length );
 
-//nueva forma de quitar ambos lados
+//nueva forma de quitar ambos lados esta forma llego hace 3 años
 console.log(producto.trim());
 console.log(producto.trim().length);
 
