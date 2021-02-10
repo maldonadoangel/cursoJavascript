@@ -17,3 +17,6 @@ console.log(correo.toLowerCase());
 //para convertir numeros en string
 const precio = 200;
 console.log(precio.toString());
+
+const correo2 = 'PAQUITALADELBARRIO@HOTMAIL.COM';
+console.log(correo2.toLowerCase());
