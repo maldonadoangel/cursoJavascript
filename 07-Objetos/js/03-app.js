@@ -7,6 +7,7 @@ const producto = {
 
 //agregar nuevas propiedades a un objeto
 producto.imagen = "imagen.jpg";
+producto.descuento = 0.15;
 
 //eliminar propiedades de un objeto
 delete producto.disponible;
