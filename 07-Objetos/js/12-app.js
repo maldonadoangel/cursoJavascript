@@ -3,7 +3,7 @@ const producto = {
     nombre: 'Pc gamer GTX 1050',
     precio: 4000,
     disponible: true
-    }
+}
 
 
     /* Object construcion */
