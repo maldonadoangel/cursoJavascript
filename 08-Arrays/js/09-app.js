@@ -17,6 +17,6 @@ for(let i = 0; i < meses.length; i++){
 }
 
 meses.forEach(function(producto){
-    console.log(`${producto.nombre} precio: ${producto.precio}`);
+    console.log(`${producto.nombre} precio: ${producto.precio}`);   
 
 })
