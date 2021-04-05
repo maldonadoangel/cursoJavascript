@@ -8,3 +8,10 @@ const numero2 = '20';
 console.log(parseInt(numero2)); //Esto es una funciòn
 
 console.log(numero1.toString())  //Esto es un metodo
+
+
+function sumar(){
+    console.log(2+2);
+}
+
+sumar();
