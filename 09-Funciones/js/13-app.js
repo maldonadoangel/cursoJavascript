@@ -9,10 +9,12 @@ const reproductor = {
     borrar: id => console.log(`Borrando cancion con el id ${id}`),
     crearPlaylist: nombre=> console.log(`Se esta creando la Playlist con el nombre: ${nombre}`),
     reproducirPlaylist: nombre=> console.log(`Reproduciendo la playlist con el nombre de: ${nombre}`),
+    //Set sirve para meter valores 
     set nuevaCancion(cancion){
         this.cancion = cancion;
         console.log(`Añadiendo ${cancion}`);
 },
+//get sirve para obtener un valor
     get obtenerCancion(){
         console.log(`La cancion que se añadio recientemente es: ${this.cancion}`);
     }
