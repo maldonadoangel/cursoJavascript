@@ -22,7 +22,7 @@ const nuevoArreglo = productos.forEach((producto, index)=>{
     console.log(`${index}: ${producto.nombre}`);
 })
 
-console.log('SOy el map');
+console.log('Soy el map');
 const nuevoArreglo2 = productos.map((producto, index)=>{
    
     console.log(`${index}: ${producto.nombre} precio: ${producto.precio}`);
